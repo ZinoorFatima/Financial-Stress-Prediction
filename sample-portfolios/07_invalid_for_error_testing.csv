@@ -1,0 +1,6 @@
+asset_id,asset_class,currency,exposure_at_default,market_value,pd,lgd,collateral_value,collateral_type,duration,equity_beta
+BAD-7001,loan,USD,1000000,1000000,0.02,0.45,0,none,0.5,0.10
+BAD-7002,bond,USD,2000000,2000000,0.03,0.50,0,none,0.4,0.15
+BAD-7003,loan,USD,-500000,500000,0.02,0.45,0,none,0.5,0.10
+BAD-7004,mortgage,USD,400000,400000,1.5,0.30,420000,property,6.0,0.0
+BAD-7005,loan,USD,notanumber,800000,0.04,0.55,0,none,0.3,0.05

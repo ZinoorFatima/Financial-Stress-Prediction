@@ -1,0 +1,9 @@
+asset_id,asset_class,currency,exposure_at_default,market_value,pd,lgd,collateral_value,collateral_type,duration,equity_beta
+LN-1001,loan,USD,2500000,2500000,0.018,0.45,0,none,0.4,0.10
+LN-1002,loan,USD,1800000,1800000,0.030,0.50,0,none,0.6,0.15
+LN-1003,loan,USD,4200000,4200000,0.012,0.40,0,none,1.2,0.35
+LN-1004,loan,USD,950000,950000,0.075,0.55,0,none,0.3,0.05
+LN-1005,loan,USD,6000000,6000000,0.009,0.35,0,none,0.8,0.25
+LN-1006,loan,USD,3100000,3100000,0.022,0.48,0,none,0.5,0.20
+LN-1007,loan,USD,1450000,1450000,0.045,0.52,0,none,0.4,0.12
+LN-1008,loan,USD,7800000,7800000,0.011,0.38,0,none,1.5,0.40

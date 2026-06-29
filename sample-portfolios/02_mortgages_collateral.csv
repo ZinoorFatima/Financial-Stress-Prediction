@@ -1,0 +1,11 @@
+asset_id,asset_class,currency,exposure_at_default,market_value,pd,lgd,collateral_value,collateral_type,duration,equity_beta
+MG-2001,mortgage,USD,320000,320000,0.010,0.20,400000,property,6.0,0.0
+MG-2002,mortgage,USD,540000,540000,0.014,0.25,560000,property,7.0,0.0
+MG-2003,mortgage,USD,275000,275000,0.022,0.30,290000,property,5.5,0.0
+MG-2004,mortgage,USD,810000,810000,0.008,0.18,1100000,property,6.5,0.0
+MG-2005,mortgage,USD,460000,460000,0.030,0.35,470000,property,4.5,0.0
+MG-2006,mortgage,USD,690000,690000,0.012,0.22,720000,property,8.0,0.0
+MG-2007,mortgage,USD,1250000,1250000,0.006,0.15,1800000,property,7.5,0.0
+MG-2008,mortgage,USD,380000,380000,0.040,0.40,360000,property,5.0,0.0
+MG-2009,mortgage,USD,920000,920000,0.011,0.20,980000,property,6.8,0.0
+MG-2010,mortgage,USD,210000,210000,0.025,0.32,205000,property,4.0,0.0

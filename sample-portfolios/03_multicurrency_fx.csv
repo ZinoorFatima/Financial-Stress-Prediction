@@ -1,0 +1,11 @@
+asset_id,asset_class,currency,exposure_at_default,market_value,pd,lgd,collateral_value,collateral_type,duration,equity_beta
+FX-3001,loan,EUR,3000000,3000000,0.020,0.45,0,none,0.5,0.20
+FX-3002,loan,GBP,2200000,2200000,0.025,0.48,800000,property,0.4,0.15
+FX-3003,loan,JPY,4500000,4500000,0.030,0.55,0,none,0.6,0.25
+FX-3004,loan,CHF,1700000,1700000,0.015,0.40,0,none,0.3,0.10
+FX-3005,loan,AUD,2600000,2600000,0.035,0.50,500000,equity,0.5,0.30
+FX-3006,mortgage,EUR,420000,420000,0.012,0.25,450000,property,6.0,0.0
+FX-3007,mortgage,GBP,560000,560000,0.018,0.30,600000,property,7.0,0.0
+FX-3008,loan,USD,5000000,5000000,0.010,0.38,0,none,0.8,0.20
+FX-3009,loan,CAD,1900000,1900000,0.028,0.46,0,none,0.4,0.18
+FX-3010,mortgage,JPY,330000,330000,0.022,0.32,340000,property,5.5,0.0

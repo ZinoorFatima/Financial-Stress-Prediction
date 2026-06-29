@@ -1,0 +1,9 @@
+asset_id,asset_class,currency,exposure_at_default,market_value,pd,lgd,collateral_value,collateral_type,duration,equity_beta
+DS-4001,loan,USD,1500000,1500000,0.150,0.65,0,none,0.5,0.45
+DS-4002,loan,EUR,2000000,2000000,0.220,0.70,300000,equity,0.6,0.55
+DS-4003,loan,USD,800000,800000,0.350,0.75,0,none,0.4,0.30
+DS-4004,mortgage,USD,450000,450000,0.090,0.50,420000,property,5.0,0.0
+DS-4005,loan,GBP,1200000,1200000,0.180,0.68,200000,property,0.5,0.40
+DS-4006,loan,USD,3000000,3000000,0.120,0.60,0,none,1.0,0.50
+DS-4007,mortgage,USD,600000,600000,0.110,0.55,540000,property,4.5,0.0
+DS-4008,loan,JPY,950000,950000,0.280,0.72,0,none,0.6,0.35

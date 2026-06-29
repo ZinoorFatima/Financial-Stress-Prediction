@@ -1,0 +1,24 @@
+# Cloud-ready local orchestration: backend API + nginx-served frontend.
+# Run with:  docker compose up --build
+# Frontend:  http://localhost:8080   (proxies /api to backend)
+services:
+  backend:
+    build: ./backend
+    environment:
+      STRESS_BASE_CURRENCY: USD
+      # When you transition to a DB, set e.g.:
+      # STRESS_DATABASE_URL: postgresql://user:pass@db:5432/stress
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health')"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  frontend:
+    build: ./frontend
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"

@@ -1,0 +1,6 @@
+asset_id,asset_class,exposure_at_default,pd
+MIN-5001,loan,1000000,0.02
+MIN-5002,loan,2500000,0.035
+MIN-5003,mortgage,500000,0.015
+MIN-5004,loan,750000,0.05
+MIN-5005,mortgage,900000,0.012
