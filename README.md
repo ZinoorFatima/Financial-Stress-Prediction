@@ -21,6 +21,20 @@ This is an **MVP** built as a clean foundation for an enterprise-grade platform.
 
 ---
 
+## Features
+
+- **Custom stress scenarios** — combine equity, interest-rate (bps), FX and credit (PD multiplier) shocks.
+- **Preset scenario library** — ready-made scenarios to run or tweak.
+- **Loans & collateralised mortgages** — pluggable per-asset-class handlers.
+- **Credit risk under stress** — stressed PD, collateral-driven LGD and Expected Loss (`PD × LGD × EAD`).
+- **Market revaluation** — duration-based rate shocks, equity beta, FX vs. base currency.
+- **Scenario comparison** — run many scenarios side by side.
+- **CSV upload with validation** — sensible defaults for optional columns; seven sample portfolios in `sample-portfolios/`.
+- **Interactive dashboard** — React + Plotly charts of losses, value changes and risk metrics.
+- **Docker-ready** — one command brings up backend + nginx-served frontend.
+
+---
+
 ## Quick start (local dev)
 
 ### 1. Backend (Python 3.11+)
@@ -59,6 +73,20 @@ docker compose up --build
 # Frontend → http://localhost:8080   (nginx proxies /api to the backend)
 # Backend  → http://localhost:8000
 ```
+
+---
+
+## Configuration
+
+No API keys or secrets are required. Optional backend settings can be set as
+environment variables (or in `backend/.env`) with the `STRESS_` prefix:
+
+| Var | Purpose | Default |
+|---|---|---|
+| `STRESS_BASE_CURRENCY` | Reporting currency for FX shocks | `USD` |
+| `STRESS_CORS_ORIGINS` | Allowed frontend origins (JSON list) | `["http://localhost:5173", "http://127.0.0.1:5173"]` |
+| `STRESS_DATA_DIR` | Folder for bundled sample data | `backend/data` |
+| `STRESS_DATABASE_URL` | Future DB backend (not used yet) | — |
 
 ---
 
@@ -163,3 +191,9 @@ frontend/
 3. Sensitivity-based and Monte-Carlo engines behind the same API.
 4. Scenario versioning, audit trail, and scheduled batch runs.
 ```
+
+---
+
+## License
+
+Released under the [MIT License](LICENSE).

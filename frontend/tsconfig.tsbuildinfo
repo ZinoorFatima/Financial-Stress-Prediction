@@ -1,1 +1,0 @@
-{"root":["./src/app.tsx","./src/api.ts","./src/format.ts","./src/main.tsx","./src/plotly-dist.d.ts","./src/types.ts","./src/components/comparisonchart.tsx","./src/components/plot.tsx","./src/components/portfoliopanel.tsx","./src/components/resultsdashboard.tsx","./src/components/scenariobuilder.tsx"],"version":"5.9.3"}
